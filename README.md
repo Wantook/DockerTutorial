@@ -4,7 +4,13 @@
   
 </div>
 
-# Overview
+# Ethical Hacking Roadmap
+
+* Basic Penetration Testing Concepts
+* Bash scripting
+* Docker (Optional can skip)
+* Ubuntu Basics (Kali Linux won't be tackled)
+* Github/Git (Optional can skip)
 
 
 
@@ -52,7 +58,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 # Creating a Docker Container
 
-If you don't know the basics yet, you can go to this [link](url)
+If you don't know the basics yet, you can go to this [link](https://github.com/Wantook/BasicShell)
 
 Go to Ubuntu and start by choosing a directory. For example (DON'T COPY PASTE. USE YOUR DESIRED DIRECTORY)
 ```
