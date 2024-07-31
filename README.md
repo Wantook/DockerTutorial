@@ -8,7 +8,7 @@
 
 * Basic Penetration Testing Concepts
 * Bash scripting
-* Docker (Optional can skip)
+* Docker Containers (Optional)
 * Ubuntu Basics (Kali Linux won't be tackled)
 * Github/Git (Optional can skip)
 
