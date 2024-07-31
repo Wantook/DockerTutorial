@@ -4,9 +4,9 @@
   
 </div>
 
-# Ethical Hacking Roadmap
+# Cybersec Roadmap
 
-* Basic Penetration Testing Concepts
+* Resources
 * Bash scripting
 * Docker Containers (Optional)
 * Ubuntu Basics (Kali Linux won't be tackled)
