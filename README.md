@@ -4,11 +4,11 @@
   
 </div>
 
-### Overview
+# Overview
 
 
 
-### Installation Commands
+# Installation Commands
 
 Open Ubuntu and I want you to copy paste them.
 
@@ -50,7 +50,7 @@ To avoid errors in the future like "Unit docker.service could not be found"
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
-### Creating a Docker Container
+# Creating a Docker Container
 
 If you don't know the basics yet, you can go to this [link](url)
 
