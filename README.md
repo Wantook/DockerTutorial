@@ -8,7 +8,7 @@
 
 
 
-### Commands
+### Installation Commands
 
 Open Ubuntu and I want you to copy paste them.
 
@@ -17,19 +17,19 @@ To be sure and to avoid errors, let us start by uninstalling docker.
 ```
 sudo apt-get remove docker docker-engine docker.io
 ```
-Then
+Let us update our Ubuntu
 ```
 sudo apt-get update
 ```
-Then
+Then get docker-ce
 ```
 sudo apt-get install docker-ce
 ```
-
+And the docker.io
 ```
 sudo apt install docker.io
 ```
-
+Then this one
 ```
 sudo snap install docker
 ```
@@ -79,7 +79,47 @@ If you were to type ls again, you will see the Dockerfile on the directory. Now,
 nano Dockerfile
 ```
 This allows you to edit the Dockerfile inside Ubuntu. Now, I want you to write a shell script. If you are not familiar with shell scripting. Go [here](https://www.shellscript.sh/)
-I will assume that you now have a shell script. Or if you don't have one, [click here](url) for a very basic tutorial
+I will assume that you now have a shell script. Or if you don't have one, [click here](https://github.com/Wantook/BasicShell) for a very basic tutorial
+
+Inside the Dockerfile, copy this
+```
+FROM ubuntu:latest
+
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=en_US.UTF-8
+
+#This will be the dependency downloaded
+RUN apt-get update && apt-get install -y curl
+
+
+COPY bashpro.sh /usr/local/bin/bashpro.sh
+
+
+RUN chmod +x /usr/local/bin/bashpro.sh
+
+
+ENTRYPOINT ["/usr/local/bin/bashpro.sh"]
+```
+Let us start building the Dockerfile
+```
+sudo docker build -t mydocker .
+```
+You can check for the images
+```
+sudo docker images
+```
+Now, run the file
+```
+sudo docker run mydocker
+```
+To see the contents (-it means interactive)
+```
+sudo docker run -it mydocker bash
+```
+Now you have a Docker Container. Congrats!
+
+
 
 
 
