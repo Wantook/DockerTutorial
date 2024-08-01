@@ -50,7 +50,7 @@ sudo docker images
 ```
 To avoid errors in the future like "Unit docker.service could not be found"
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get install docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 # Creating a Docker Container
