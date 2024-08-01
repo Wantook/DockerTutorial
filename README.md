@@ -1,6 +1,6 @@
 <div align="center">
 
-# Docker Tutorial
+# Docker for Beginners
   
 </div>
 
