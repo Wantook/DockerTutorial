@@ -15,7 +15,7 @@
 
 # Overview
 
-A Docker Container includes the dependencies of your project in the container so that the users would not need to download the dependencies themselves. For example, you are making a Python project that includes Matplotlib. If I would download your project and I don't have Matplotlib, then I have to download those dependencies too. This would be too troublesome if your projects has too much dependencies that downloading them all manually would be a problem. Docker packages your apps so that anyone who downloads it won't have to install the dependencies you used.
+A Docker Container includes the dependencies and packages of your project in the container so that the users would not need to download the dependencies themselves. For example, you are making a Python project that includes Matplotlib. If I would download your project and I don't have Matplotlib, then I have to download those dependencies too. This would be too troublesome if your projects has too much dependencies that downloading them all manually would be a problem. Docker packages your apps so that anyone who downloads it won't have to install the dependencies you used.
 
 
 
