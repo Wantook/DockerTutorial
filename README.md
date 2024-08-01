@@ -4,14 +4,6 @@
   
 </div>
 
-# Cybersec Roadmap
-
-* Resources
-* Bash scripting
-* Docker Containers (Optional)
-* Ubuntu Basics (Kali Linux won't be tackled)
-* Github/Git (Optional can skip)
-
 
 # Overview
 
@@ -128,7 +120,7 @@ To see the contents (-it means interactive)
 ```
 sudo docker run -it mydocker bash
 ```
-Now you have a Docker Container. Congrats!
+Now you have a Docker Container. Congrats! Example shown here does not really require a docker file since you can just install curl manually. But it's good as an introduction.
 
 
 
